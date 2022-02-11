@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Tommy\\source\\repos\\EcoSimConsole\\EcoSimConsole\\EcoSimConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Tommy\\source\\repos\\EcoSimConsole\\EcoSimConsole\\EcoSimConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Tommy\\source\\repos\\EcoSimConsole\\EcoSimConsole\\EcoSimConsole.csproj",
+        "projectName": "EcoSimConsole",
+        "projectPath": "C:\\Users\\Tommy\\source\\repos\\EcoSimConsole\\EcoSimConsole\\EcoSimConsole.csproj",
+        "packagesPath": "C:\\Users\\Tommy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tommy\\source\\repos\\EcoSimConsole\\EcoSimConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Tommy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "LiveChartsCore.SkiaSharpView.WPF": {
+              "target": "Package",
+              "version": "[2.0.0-beta.60, )"
+            },
+            "Microsoft.VCRTForwarders.140": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "uap10.0.18362"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

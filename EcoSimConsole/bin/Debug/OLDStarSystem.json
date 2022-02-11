@@ -1,0 +1,324 @@
+[
+  {
+    "radius": 69634.0,
+    "orbiting": null,
+    "distance": 0.0,
+    "degree": 0.0,
+    "type": 0,
+    "name": "Stanton",
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 7200.0,
+    "orbiting": {
+      "radius": 69634.0,
+      "orbiting": null,
+      "distance": 0.0,
+      "degree": 0.0,
+      "type": 0,
+      "name": "Stanton",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "distance": 0.0,
+    "degree": 0.0,
+    "type": 1,
+    "name": "Crusader",
+    "position": {
+      "x": -17993730.460512351,
+      "y": -6549182.2910355795,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 445.0,
+    "orbiting": {
+      "radius": 7200.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 0.0,
+      "degree": 0.0,
+      "type": 1,
+      "name": "Crusader",
+      "position": {
+        "x": -17993730.460512351,
+        "y": -6549182.2910355795,
+        "z": 0.0
+      }
+    },
+    "distance": 63280.0,
+    "degree": 200.0,
+    "type": 2,
+    "name": "Daymar",
+    "position": {
+      "x": -17934266.711469021,
+      "y": -6527539.2563659316,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 410.5,
+    "orbiting": {
+      "radius": 7200.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 0.0,
+      "degree": 0.0,
+      "type": 1,
+      "name": "Crusader",
+      "position": {
+        "x": -17993730.460512351,
+        "y": -6549182.2910355795,
+        "z": 0.0
+      }
+    },
+    "distance": 50864.0,
+    "degree": 15.0,
+    "type": 2,
+    "name": "Cellin",
+    "position": {
+      "x": -18042861.311740719,
+      "y": -6562346.862945674,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 260.5,
+    "orbiting": {
+      "radius": 7200.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 0.0,
+      "degree": 0.0,
+      "type": 1,
+      "name": "Crusader",
+      "position": {
+        "x": -17993730.460512351,
+        "y": -6549182.2910355795,
+        "z": 0.0
+      }
+    },
+    "distance": 79288.0,
+    "degree": 300.0,
+    "type": 2,
+    "name": "Yela",
+    "position": {
+      "x": -18033374.460512351,
+      "y": -6480516.868820319,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 2000.0,
+    "orbiting": {
+      "radius": 69634.0,
+      "orbiting": null,
+      "distance": 0.0,
+      "degree": 0.0,
+      "type": 0,
+      "name": "Stanton",
+      "position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    "distance": 12850639.0,
+    "degree": 350.0,
+    "type": 1,
+    "name": "Hurston",
+    "position": {
+      "x": 12655408.918361047,
+      "y": -2231490.0442055846,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 206.0,
+    "orbiting": {
+      "radius": 2000.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 12850639.0,
+      "degree": 350.0,
+      "type": 1,
+      "name": "Hurston",
+      "position": {
+        "x": 12655408.918361047,
+        "y": -2231490.0442055846,
+        "z": 0.0
+      }
+    },
+    "distance": 52683.0,
+    "degree": 110.0,
+    "type": 2,
+    "name": "Arial",
+    "position": {
+      "x": 12673427.565571874,
+      "y": -2280995.8705464485,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 165.0,
+    "orbiting": {
+      "radius": 2000.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 12850639.0,
+      "degree": 350.0,
+      "type": 1,
+      "name": "Hurston",
+      "position": {
+        "x": 12655408.918361047,
+        "y": -2231490.0442055846,
+        "z": 0.0
+      }
+    },
+    "distance": 63133.0,
+    "degree": 205.0,
+    "type": 2,
+    "name": "Abardeen",
+    "position": {
+      "x": 12712626.847880032,
+      "y": -2204808.885487109,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 204.0,
+    "orbiting": {
+      "radius": 2000.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 12850639.0,
+      "degree": 350.0,
+      "type": 1,
+      "name": "Hurston",
+      "position": {
+        "x": 12655408.918361047,
+        "y": -2231490.0442055846,
+        "z": 0.0
+      }
+    },
+    "distance": 97253.0,
+    "degree": 190.0,
+    "type": 2,
+    "name": "Magda",
+    "position": {
+      "x": 12751184.426764743,
+      "y": -2214602.2379829427,
+      "z": 0.0
+    }
+  },
+  {
+    "radius": 195.0,
+    "orbiting": {
+      "radius": 2000.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 12850639.0,
+      "degree": 350.0,
+      "type": 1,
+      "name": "Hurston",
+      "position": {
+        "x": 12655408.918361047,
+        "y": -2231490.0442055846,
+        "z": 0.0
+      }
+    },
+    "distance": 116697.0,
+    "degree": 165.0,
+    "type": 2,
+    "name": "Ita",
+    "position": {
+      "x": 12768129.564511502,
+      "y": -2261693.4503119136,
+      "z": 0.0
+    }
+  }
+]

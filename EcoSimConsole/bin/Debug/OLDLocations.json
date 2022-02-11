@@ -1,0 +1,1296 @@
+[
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 19,
+          "Type": 0,
+          "defaultBuyPrice": 8.9,
+          "defaultSellPrice": 7.1,
+          "Name": "Raw Titanium"
+        },
+        "maxNetRate": 933,
+        "currentNetRate": 933,
+        "currentStorage": 247832,
+        "maxStorage": 576000,
+        "price": 8.6699999999999946,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 2,
+              "Type": 1,
+              "defaultBuyPrice": 19.37,
+              "defaultSellPrice": 15.75,
+              "Name": "Medical Supplies"
+            },
+            "maxNetRate": 500,
+            "currentNetRate": 500,
+            "currentStorage": 0,
+            "maxStorage": 5000,
+            "price": 19.059999999999995,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 3,
+    "_productivity": 0.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 410.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 0.0,
+      "degree": 0.0,
+      "type": 2,
+      "name": "Cellin",
+      "position": {
+        "x": -18042687.445091985,
+        "y": -6562300.2755175559,
+        "z": 0.0
+      }
+    },
+    "distance": 410.5,
+    "degree": 20.0,
+    "type": 4,
+    "name": "Tram and Myhers",
+    "position": {
+      "x": -18043073.188912816,
+      "y": -6562440.6747863907,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 1,
+          "Type": 1,
+          "defaultBuyPrice": 8.93,
+          "defaultSellPrice": 7.1,
+          "Name": "Titanium"
+        },
+        "maxNetRate": 2000,
+        "currentNetRate": 2000,
+        "currentStorage": 2526,
+        "maxStorage": 250000,
+        "price": 7.0099999999999865,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 19,
+              "Type": 0,
+              "defaultBuyPrice": 8.9,
+              "defaultSellPrice": 7.1,
+              "Name": "Raw Titanium"
+            },
+            "maxNetRate": 5000,
+            "currentNetRate": 5000,
+            "currentStorage": -2600,
+            "maxStorage": 650000,
+            "price": 9.2799999999999852,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      },
+      {
+        "commodity": {
+          "ID": 0,
+          "Type": 0,
+          "defaultBuyPrice": 1.2,
+          "defaultSellPrice": 1.01,
+          "Name": "Agricultural Supplies"
+        },
+        "maxNetRate": 25000,
+        "currentNetRate": 25000,
+        "currentStorage": 861152,
+        "maxStorage": 845000,
+        "price": 0.55999999999999961,
+        "_requiredResources": [],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 0,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 7200.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 0.0,
+      "degree": 0.0,
+      "type": 1,
+      "name": "Crusader",
+      "position": {
+        "x": -17993730.460512351,
+        "y": -6549182.2910355795,
+        "z": 0.0
+      }
+    },
+    "distance": 17660.0,
+    "degree": 225.0,
+    "type": 4,
+    "name": "Port Olisar",
+    "position": {
+      "x": -17981242.954756595,
+      "y": -6536694.7852798253,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 3,
+          "Type": 6,
+          "defaultBuyPrice": 1.5,
+          "defaultSellPrice": 1.0,
+          "Name": "Processed Food"
+        },
+        "maxNetRate": 4500,
+        "currentNetRate": 4500,
+        "currentStorage": 103500,
+        "maxStorage": 100000,
+        "price": 0.0,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 0,
+              "Type": 0,
+              "defaultBuyPrice": 1.2,
+              "defaultSellPrice": 1.01,
+              "Name": "Agricultural Supplies"
+            },
+            "maxNetRate": 5000,
+            "currentNetRate": 5000,
+            "currentStorage": 128944,
+            "maxStorage": 150000,
+            "price": 2.5800000000000036,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 3,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 445.0,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 63280.0,
+      "degree": 200.0,
+      "type": 2,
+      "name": "Daymar",
+      "position": {
+        "x": -17934266.711469021,
+        "y": -6527539.2563659316,
+        "z": 0.0
+      }
+    },
+    "distance": 445.0,
+    "degree": 130.0,
+    "type": 4,
+    "name": "Bountiful Harvest Hydroponics",
+    "position": {
+      "x": -17933980.670982711,
+      "y": -6527880.14614312,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 21,
+          "Type": 0,
+          "defaultBuyPrice": 57.5,
+          "defaultSellPrice": 42.5,
+          "Name": "Altruciatoxin"
+        },
+        "maxNetRate": 100,
+        "currentNetRate": 100,
+        "currentStorage": 0,
+        "maxStorage": 4000,
+        "price": 79.700000000000841,
+        "_requiredResources": [],
+        "isConsumed": true,
+        "isRawProducer": false,
+        "_productionProcess": null
+      },
+      {
+        "commodity": {
+          "ID": 22,
+          "Type": 0,
+          "defaultBuyPrice": 11.0,
+          "defaultSellPrice": 15.0,
+          "Name": "Steel plates"
+        },
+        "maxNetRate": 0,
+        "currentNetRate": 0,
+        "currentStorage": 6000,
+        "maxStorage": 750000,
+        "price": 15.0,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 1,
+              "Type": 1,
+              "defaultBuyPrice": 8.93,
+              "defaultSellPrice": 7.1,
+              "Name": "Titanium"
+            },
+            "maxNetRate": 4000,
+            "currentNetRate": 4000,
+            "currentStorage": 55559,
+            "maxStorage": 500000,
+            "price": 11.17999999999995,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 2,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 260.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 79288.0,
+      "degree": 300.0,
+      "type": 2,
+      "name": "Yela",
+      "position": {
+        "x": -18033374.460512351,
+        "y": -6480516.868820319,
+        "z": 0.0
+      }
+    },
+    "distance": 685.0,
+    "degree": 12.0,
+    "type": 4,
+    "name": "GrimHex",
+    "position": {
+      "x": -18034044.491618853,
+      "y": -6480659.2883285293,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 2,
+          "Type": 1,
+          "defaultBuyPrice": 19.37,
+          "defaultSellPrice": 15.75,
+          "Name": "Medical Supplies"
+        },
+        "maxNetRate": 600,
+        "currentNetRate": 600,
+        "currentStorage": 3312,
+        "maxStorage": 50000,
+        "price": 16.90000000000002,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 12,
+              "Type": 3,
+              "defaultBuyPrice": 9.0,
+              "defaultSellPrice": 7.0,
+              "Name": "Astatine"
+            },
+            "maxNetRate": 3000,
+            "currentNetRate": 3000,
+            "currentStorage": -2000,
+            "maxStorage": 576000,
+            "price": 13.089999999999913,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 2,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 260.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 79288.0,
+      "degree": 300.0,
+      "type": 2,
+      "name": "Yela",
+      "position": {
+        "x": -18033374.460512351,
+        "y": -6480516.868820319,
+        "z": 0.0
+      }
+    },
+    "distance": 260.5,
+    "degree": 36.0,
+    "type": 4,
+    "name": "Deakins Research Outpost",
+    "position": {
+      "x": -18033585.209439386,
+      "y": -6480669.9868785413,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 19,
+          "Type": 0,
+          "defaultBuyPrice": 8.9,
+          "defaultSellPrice": 7.1,
+          "Name": "Raw Titanium"
+        },
+        "maxNetRate": 2500,
+        "currentNetRate": 2500,
+        "currentStorage": 218875,
+        "maxStorage": 500000,
+        "price": 7.5999999999999988,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 2,
+              "Type": 1,
+              "defaultBuyPrice": 19.37,
+              "defaultSellPrice": 15.75,
+              "Name": "Medical Supplies"
+            },
+            "maxNetRate": 25,
+            "currentNetRate": 25,
+            "currentStorage": 2751,
+            "maxStorage": 2500,
+            "price": 15.029999999999859,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 5,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 260.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 79288.0,
+      "degree": 300.0,
+      "type": 2,
+      "name": "Yela",
+      "position": {
+        "x": -18033374.460512351,
+        "y": -6480516.868820319,
+        "z": 0.0
+      }
+    },
+    "distance": 260.5,
+    "degree": 54.0,
+    "type": 4,
+    "name": "Benson mining outpost",
+    "position": {
+      "x": -18033527.578570575,
+      "y": -6480727.6177473534,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 19,
+          "Type": 0,
+          "defaultBuyPrice": 8.9,
+          "defaultSellPrice": 7.1,
+          "Name": "Raw Titanium"
+        },
+        "maxNetRate": 15000,
+        "currentNetRate": 15000,
+        "currentStorage": 676563,
+        "maxStorage": 1500000,
+        "price": 7.6099999999999932,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 2,
+              "Type": 1,
+              "defaultBuyPrice": 19.37,
+              "defaultSellPrice": 15.75,
+              "Name": "Medical Supplies"
+            },
+            "maxNetRate": 200,
+            "currentNetRate": 200,
+            "currentStorage": 8353,
+            "maxStorage": 541200,
+            "price": 19.36999999999999,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 3,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 206.0,
+      "orbiting": {
+        "radius": 2000.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 12850639.0,
+        "degree": 350.0,
+        "type": 1,
+        "name": "Hurston",
+        "position": {
+          "x": 12655408.918361047,
+          "y": -2231490.0442055846,
+          "z": 0.0
+        }
+      },
+      "distance": 52683.0,
+      "degree": 110.0,
+      "type": 2,
+      "name": "Arial",
+      "position": {
+        "x": 12673427.565571874,
+        "y": -2280995.8705464485,
+        "z": 0.0
+      }
+    },
+    "distance": 206.0,
+    "degree": 66.0,
+    "type": 4,
+    "name": "HDMS-Bezdek",
+    "position": {
+      "x": 12673343.777823402,
+      "y": -2281184.0609107227,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 5,
+    "_productivity": 0.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 2000.0,
+      "orbiting": {
+        "radius": 69634.0,
+        "orbiting": null,
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 0,
+        "name": "Stanton",
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "distance": 12850639.0,
+      "degree": 350.0,
+      "type": 1,
+      "name": "Hurston",
+      "position": {
+        "x": 12655408.918361047,
+        "y": -2231490.0442055846,
+        "z": 0.0
+      }
+    },
+    "distance": 2000.0,
+    "degree": 265.0,
+    "type": 4,
+    "name": "Lorville-CBD",
+    "position": {
+      "x": 12655583.229846543,
+      "y": -2229497.6548094009,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 10,
+          "Type": 2,
+          "defaultBuyPrice": 5.67,
+          "defaultSellPrice": 4.05,
+          "Name": "Distilled Spirits"
+        },
+        "maxNetRate": 1300,
+        "currentNetRate": 1300,
+        "currentStorage": 9100,
+        "maxStorage": 8000,
+        "price": 0.0,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 0,
+              "Type": 0,
+              "defaultBuyPrice": 1.2,
+              "defaultSellPrice": 1.01,
+              "Name": "Agricultural Supplies"
+            },
+            "maxNetRate": 546,
+            "currentNetRate": 546,
+            "currentStorage": 0,
+            "maxStorage": 576000,
+            "price": 1.2,
+            "_requiredResources": [],
+            "isConsumed": false,
+            "isRawProducer": true,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      },
+      {
+        "commodity": {
+          "ID": 20,
+          "Type": 0,
+          "defaultBuyPrice": 1.69,
+          "defaultSellPrice": 1.32,
+          "Name": "Revenant Tree Pollen"
+        },
+        "maxNetRate": 1000,
+        "currentNetRate": 1000,
+        "currentStorage": 10600,
+        "maxStorage": 10000,
+        "price": 0.0,
+        "_requiredResources": [],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 5,
+    "_productivity": 0.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 410.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 50864.0,
+      "degree": 15.0,
+      "type": 2,
+      "name": "Cellin",
+      "position": {
+        "x": -18042861.311740719,
+        "y": -6562346.862945674,
+        "z": 0.0
+      }
+    },
+    "distance": 410.5,
+    "degree": 45.0,
+    "type": 4,
+    "name": "Gallette family farms",
+    "position": {
+      "x": -18043151.579074398,
+      "y": -6562637.130279351,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 18,
+          "Type": 0,
+          "defaultBuyPrice": 90.0,
+          "defaultSellPrice": 70.0,
+          "Name": "Neon"
+        },
+        "maxNetRate": 260,
+        "currentNetRate": 260,
+        "currentStorage": 46280,
+        "maxStorage": 50000,
+        "price": 70.0,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 1,
+              "Type": 1,
+              "defaultBuyPrice": 8.93,
+              "defaultSellPrice": 7.1,
+              "Name": "Titanium"
+            },
+            "maxNetRate": 250,
+            "currentNetRate": 250,
+            "currentStorage": 5950,
+            "maxStorage": 5000,
+            "price": 10.129999999999926,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      },
+      {
+        "commodity": {
+          "ID": 12,
+          "Type": 3,
+          "defaultBuyPrice": 9.0,
+          "defaultSellPrice": 7.0,
+          "Name": "Astatine"
+        },
+        "maxNetRate": 500,
+        "currentNetRate": 500,
+        "currentStorage": 0,
+        "maxStorage": 25000,
+        "price": 7.02,
+        "_requiredResources": [],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      },
+      {
+        "commodity": {
+          "ID": 13,
+          "Type": 3,
+          "defaultBuyPrice": 1.7,
+          "defaultSellPrice": 1.31,
+          "Name": "Chlorine"
+        },
+        "maxNetRate": 750,
+        "currentNetRate": 750,
+        "currentStorage": 1500,
+        "maxStorage": 25000,
+        "price": 1.31,
+        "_requiredResources": [],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      },
+      {
+        "commodity": {
+          "ID": 14,
+          "Type": 3,
+          "defaultBuyPrice": 2.96,
+          "defaultSellPrice": 2.35,
+          "Name": "Flourine"
+        },
+        "maxNetRate": 200,
+        "currentNetRate": 0,
+        "currentStorage": 0,
+        "maxStorage": 25000,
+        "price": 2.35,
+        "_requiredResources": [],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 4,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 410.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 50864.0,
+      "degree": 15.0,
+      "type": 2,
+      "name": "Cellin",
+      "position": {
+        "x": -18042861.311740719,
+        "y": -6562346.862945674,
+        "z": 0.0
+      }
+    },
+    "distance": 410.5,
+    "degree": 225.0,
+    "type": 4,
+    "name": "Hickes Research Outpost",
+    "position": {
+      "x": -18042571.04440704,
+      "y": -6562056.5956119969,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 3,
+          "Type": 6,
+          "defaultBuyPrice": 1.5,
+          "defaultSellPrice": 1.0,
+          "Name": "Processed Food"
+        },
+        "maxNetRate": 3500,
+        "currentNetRate": 3500,
+        "currentStorage": 56000,
+        "maxStorage": 55000,
+        "price": 0.0,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 0,
+              "Type": 0,
+              "defaultBuyPrice": 1.2,
+              "defaultSellPrice": 1.01,
+              "Name": "Agricultural Supplies"
+            },
+            "maxNetRate": 5000,
+            "currentNetRate": 5000,
+            "currentStorage": 75188,
+            "maxStorage": 20000,
+            "price": 2.4399999999999986,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 2,
+    "_productivity": 1.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 410.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 50864.0,
+      "degree": 15.0,
+      "type": 2,
+      "name": "Cellin",
+      "position": {
+        "x": -18042861.311740719,
+        "y": -6562346.862945674,
+        "z": 0.0
+      }
+    },
+    "distance": 410.5,
+    "degree": 154.0,
+    "type": 4,
+    "name": "Terra mills HydroFarm",
+    "position": {
+      "x": -18042492.356784713,
+      "y": -6562526.8143014312,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": false,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 21,
+          "Type": 0,
+          "defaultBuyPrice": 57.5,
+          "defaultSellPrice": 42.5,
+          "Name": "Altruciatoxin"
+        },
+        "maxNetRate": 200,
+        "currentNetRate": 200,
+        "currentStorage": 1000,
+        "maxStorage": 1000,
+        "price": 41.980000000000011,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 12,
+              "Type": 3,
+              "defaultBuyPrice": 9.0,
+              "defaultSellPrice": 7.0,
+              "Name": "Astatine"
+            },
+            "maxNetRate": 2500,
+            "currentNetRate": 2500,
+            "currentStorage": 0,
+            "maxStorage": 123120,
+            "price": 9.419999999999991,
+            "_requiredResources": [],
+            "isConsumed": true,
+            "isRawProducer": false,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": true,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 5,
+    "_freeHangars": 5,
+    "_productivity": 0.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 410.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 50864.0,
+      "degree": 15.0,
+      "type": 2,
+      "name": "Cellin",
+      "position": {
+        "x": -18042861.311740719,
+        "y": -6562346.862945674,
+        "z": 0.0
+      }
+    },
+    "distance": 410.5,
+    "degree": 355.0,
+    "type": 4,
+    "name": "PRIVATE PROPERTY",
+    "position": {
+      "x": -18043270.249664284,
+      "y": -6562311.085513276,
+      "z": 0.0
+    }
+  },
+  {
+    "_uec": 100000.0,
+    "baseSalary": 250.0,
+    "_isOnSurface": true,
+    "_producedResource": [
+      {
+        "commodity": {
+          "ID": 21,
+          "Type": 0,
+          "defaultBuyPrice": 57.5,
+          "defaultSellPrice": 42.5,
+          "Name": "Altruciatoxin"
+        },
+        "maxNetRate": 100,
+        "currentNetRate": 0,
+        "currentStorage": 0,
+        "maxStorage": 4000,
+        "price": 42.5,
+        "_requiredResources": [
+          {
+            "commodity": {
+              "ID": 20,
+              "Type": 0,
+              "defaultBuyPrice": 1.69,
+              "defaultSellPrice": 1.32,
+              "Name": "Revenant Tree Pollen"
+            },
+            "maxNetRate": 500,
+            "currentNetRate": 500,
+            "currentStorage": 0,
+            "maxStorage": 10000,
+            "price": 1.9500000000000002,
+            "_requiredResources": [],
+            "isConsumed": false,
+            "isRawProducer": true,
+            "_productionProcess": null
+          }
+        ],
+        "isConsumed": false,
+        "isRawProducer": false,
+        "_productionProcess": null
+      }
+    ],
+    "_modules": [],
+    "_shipStorage": [],
+    "_maxHangars": 1,
+    "_freeHangars": 1,
+    "_productivity": 0.0,
+    "radius": 0.0,
+    "orbiting": {
+      "radius": 260.5,
+      "orbiting": {
+        "radius": 7200.0,
+        "orbiting": {
+          "radius": 69634.0,
+          "orbiting": null,
+          "distance": 0.0,
+          "degree": 0.0,
+          "type": 0,
+          "name": "Stanton",
+          "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      },
+      "distance": 79288.0,
+      "degree": 300.0,
+      "type": 2,
+      "name": "Yela",
+      "position": {
+        "x": -18033374.460512351,
+        "y": -6480516.868820319,
+        "z": 0.0
+      }
+    },
+    "distance": 260.5,
+    "degree": 1.0,
+    "type": 4,
+    "name": "Jumptown",
+    "position": {
+      "x": -18033634.92083694,
+      "y": -6480521.415172196,
+      "z": 0.0
+    }
+  }
+]

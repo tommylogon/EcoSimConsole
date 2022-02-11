@@ -1,0 +1,195 @@
+﻿<Window x:Class="EcoSimConsole.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EcoSimConsole"
+        xmlns:helpers="clr-namespace:EcoSimConsole.Helpers"
+        xmlns:data="clr-namespace:EcoSimConsole.Data"
+        xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.WPF;assembly=LiveChartsCore.SkiaSharpView.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Locations">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        
+                    </Grid.RowDefinitions>
+                    <StackPanel>
+                        <Button Content="New Locaction" Click="NewLocationClicked" />
+                        <TreeView x:Name="trv_StarMap" Height="200" ItemsSource="{Binding StarSystem}" SelectedItemChanged="StarMap_SelectedItemChanged">
+                            <TreeView.ItemTemplate>
+                                <HierarchicalDataTemplate DataType="{x:Type data:StellarObject}" ItemsSource="{Binding Satellites}" >
+                                    <TextBlock Text="{Binding Name}" />
+                                </HierarchicalDataTemplate>
+                            </TreeView.ItemTemplate>
+                        </TreeView>
+                        
+                    </StackPanel>
+                    
+                    
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="100" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Name: "/>
+                                <TextBlock Text="{Binding SelectedLocation.Name, Mode=OneWay}" HorizontalAlignment="Stretch"  FontSize="18" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Hangar space: "/>
+                                <TextBlock Text="{Binding SelectedLocation.GetHangarInfo}" HorizontalAlignment="Stretch"  FontSize="15" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Queue: "/>
+                                <TextBlock Text="{Binding SelectedLocation.GetQueueInfo}" HorizontalAlignment="Stretch"  FontSize="15" />
+                            </StackPanel>
+                        </StackPanel>
+                        
+                        <StackPanel Grid.Column="1" >
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="UEC: "/>
+                                <TextBlock Text="{Binding SelectedLocation.UEC, Mode=OneWay}" HorizontalAlignment="Stretch"  FontSize="18" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Wear: "/>
+                                <TextBlock Text="{Binding SelectedLocation.Wear, Mode=OneWay}" HorizontalAlignment="Stretch"  FontSize="18" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Fuel: "/>
+                                <TextBlock Text="{Binding SelectedLocation.Fuel, Mode=OneWay}" HorizontalAlignment="Stretch"  FontSize="18" />
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Available Housing: "/>
+                                <TextBlock Text="{Binding SelectedLocation.FreeHousing, Mode=OneWay}" HorizontalAlignment="Stretch"  FontSize="18" />
+                            </StackPanel>
+                        </StackPanel>
+                        
+                        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                            
+                            <StackPanel >
+                                <Button Content="View Modules" Click="ViewModulesClicked" />
+                                
+                            </StackPanel>
+
+                            
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Citizens">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="auto" />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <DataGrid ItemsSource="{Binding Citizens, Mode=OneWay}" AutoGenerateColumns="False" SelectedItem="{Binding SelectedCitizen}" Grid.RowSpan="2" Width="auto">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name, Mode=OneWay}" Width="auto" />
+                            <DataGridTextColumn Header="At" Binding="{Binding CurrentLocation.Name, Mode=OneWay}" Width="auto" />
+                            <DataGridTextColumn Header="Destination" Binding="{Binding Destination.Name, Mode=OneWay}" Width="auto" />
+                            <DataGridTextColumn Header="Destination" Binding="{Binding Cargo, Mode=OneWay}" Width="auto" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <StackPanel x:Name="CitizenInfo" Grid.Column="1" Margin="5">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Name: " />
+                            <TextBlock Text="{Binding SelectedCitizen.Name}" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Account: " />
+                            <TextBlock Text="{Binding SelectedCitizen.GetUEC}" />
+                        </StackPanel>
+
+                        <Border Height="5" />
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Posiion: " />
+                            <TextBlock Text="{Binding SelectedCitizen.CurrentPosition}" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="State: " />
+                            <TextBlock Text="{Binding SelectedCitizen.CurrentState}" />
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal"></StackPanel>
+                        <TextBlock Text="Bored: " />
+                        <TextBlock Text="{Binding SelectedCitizen.BoredValue}" />
+                    </StackPanel>
+                    <StackPanel x:Name="TravelInfo" Grid.Column="2"  Margin="5">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Current Location: " />
+                            <TextBlock Text="{Binding SelectedCitizen.CurrentLocation.Name}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Destination: " />
+                            <TextBlock Text="{Binding SelectedCitizen.Destination.Name}" />
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel x:Name="ShipInfo" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"  Margin="5">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Distance: " />
+                            <TextBlock Text="{Binding SelectedCitizen.DistanceLeft}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Speed: " />
+                            <TextBlock Text="{Binding SelectedCitizen.Speed}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Time left: " />
+                            <TextBlock Text="{Binding SelectedCitizen.TimeLeft}" />
+                        </StackPanel>
+                        <TextBlock Text="Ship info" />
+                        <TextBlock Text="{Binding SelectedCitizen.GetShipInfo}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Ships">
+            </TabItem>
+            <TabItem Header="Market">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <DataGrid Grid.RowSpan="2" ItemsSource="{Binding MarketInfos}">
+                    </DataGrid>
+                    <StackPanel Grid.Column="1">
+                        <Button Content="Reset Prices" Click="ResetPricesClicked" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Map">
+                <Grid>
+                    
+
+                </Grid>
+                
+                        
+                
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

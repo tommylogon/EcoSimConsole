@@ -1,0 +1,64 @@
+﻿<Window x:Class="EcoSimConsole.Windows.LocationEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EcoSimConsole.Windows"
+        xmlns:enum="clr-namespace:EcoSimConsole.Helpers"
+        xmlns:data="clr-namespace:EcoSimConsole.Data"
+        mc:Ignorable="d"
+        Title="LocationEditor" Height="450" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <ComboBox ItemsSource="{Binding Source= {enum:EnumBindingSourceExtension {x:Type data:LocationType}}, UpdateSourceTrigger=PropertyChanged, NotifyOnSourceUpdated=True}" SelectedItem="{Binding DisplayType}"  SelectionChanged="DisplayChanged" />
+        <ComboBox Grid.Column="1" ItemsSource="{Binding StarSystem, UpdateSourceTrigger=PropertyChanged, NotifyOnSourceUpdated=True}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedLocation}" SelectionChanged="SelectedLocationChanged" />
+        <StackPanel Grid.Row="1">
+
+            <TextBlock Text="Name" />
+            <TextBox Text="{Binding Name}" />
+            <TextBlock Text="location Type" />
+            <ComboBox ItemsSource="{Binding Source= {enum:EnumBindingSourceExtension {x:Type data:LocationType}}, UpdateSourceTrigger=PropertyChanged, NotifyOnSourceUpdated=True}" SelectedItem="{Binding SelectedType}" SelectionChanged="TypeChanged" />
+            <TextBlock Text="Radius" Visibility="{Binding ShowForStellar}" />
+            <TextBox Text="{Binding Radius}" Visibility="{Binding ShowForStellar}" />
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Orbiting: " Grid.Column="2" />
+                <TextBlock Text="{Binding SelectedStellarObject.Name}" />
+            </StackPanel>
+            <ComboBox ItemsSource="{Binding ValidOrbiters , UpdateSourceTrigger=PropertyChanged, NotifyOnSourceUpdated=True}" SelectedItem="{Binding SelectedStellarObject}" DisplayMemberPath="Name" />
+            <TextBlock  Text="Angle" />
+            <TextBox  Text="{Binding Degree}" />
+            <CheckBox Content="Is on surface" IsChecked="{Binding IsSurfaceLocation}"  Visibility="{Binding HideForStellar}" />
+            <TextBlock  Text="Distance" />
+            <TextBox  Text="{Binding Distance}" />
+
+            <Button Content="SetPosition" Click="SetPositionClicked" />
+            <TextBlock Text="Position" Grid.Row="1" />
+            <TextBlock Text="{Binding Position}" Grid.Row="1" Grid.Column="1" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Visibility="{Binding HideForStellar}">
+
+            <TextBlock Text="MaxHousing" Grid.Row="2" />
+            <TextBox Text="{Binding MaxHousing}" />
+            <TextBlock Text="MaxHangars" Grid.Row="2" />
+            <TextBox Text="{Binding MaxHangars}" />
+            <TextBlock Text="Production:" Grid.Row="2" />
+            <Button Content="Add Production"  Click="AddProductionClicked" />
+        </StackPanel>
+        <DataGrid ItemsSource="{Binding SelectedLocation.Selling}" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2">
+        </DataGrid>
+        <Button Content="Save"  Grid.Row="3" Grid.RowSpan="1" VerticalAlignment="Bottom" Click="SaveClicked" />
+    </Grid>
+</Window>

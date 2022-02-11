@@ -1,0 +1,51 @@
+﻿<Window x:Class="EcoSimConsole.Windows.ProductionEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EcoSimConsole.Windows"
+        mc:Ignorable="d"
+        Title="Edit Production" Height="250" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <TextBlock Text="Create new Commodity: " Padding="2" />
+            <TextBlock Text="Commodity: " Padding="3" />
+            <TextBlock Text="Max Rate" Padding="1" />
+
+            <TextBlock Text="Max Storage" Padding="1" />
+            <TextBlock Text="Initial price" Padding="1" />
+
+            <TextBlock Text="required commodities" Padding="3" />
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Button Content="New" Click="NewCommodityClicked" />
+            <ComboBox  ItemsSource="{Binding ProducedCommodities}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedCommodity, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" />
+
+            <TextBox Text="{Binding MaxRate, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Text="{Binding MaxStorage, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" />
+            <TextBox Text="{Binding Price, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" />
+
+            <Button Content="Add requirement" Click="AddRequirement" />
+
+            <CheckBox Content="is Consumed" IsChecked="{Binding IsConsumed, NotifyOnSourceUpdated=True, UpdateSourceTrigger=PropertyChanged}" />
+            <DataGrid ItemsSource="{Binding Requirements}" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Commodity" Binding="{Binding Commodity}" />
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Button Content="Submit"  Click="SubmitClicked" />
+            <Button Content="Cancel"   Click="CancelClicked" />
+            <Button Content="Remove"   Click="RemoveClicked" />
+        </StackPanel>
+    </Grid>
+</Window>

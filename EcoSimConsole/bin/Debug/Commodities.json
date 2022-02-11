@@ -1,0 +1,157 @@
+[
+  {
+    "ID": 0,
+    "Type": 0,
+    "defaultBuyPrice": 1.2,
+    "defaultSellPrice": 1.01,
+    "Name": "Agricultural Supplies"
+  },
+  {
+    "ID": 1,
+    "Type": 1,
+    "defaultBuyPrice": 8.93,
+    "defaultSellPrice": 7.1,
+    "Name": "Titanium"
+  },
+  {
+    "ID": 2,
+    "Type": 1,
+    "defaultBuyPrice": 19.37,
+    "defaultSellPrice": 15.75,
+    "Name": "Medical Supplies"
+  },
+  {
+    "ID": 3,
+    "Type": 6,
+    "defaultBuyPrice": 1.5,
+    "defaultSellPrice": 1.0,
+    "Name": "Processed Food"
+  },
+  {
+    "ID": 4,
+    "Type": 4,
+    "defaultBuyPrice": 27.5,
+    "defaultSellPrice": 22.5,
+    "Name": "Agricium"
+  },
+  {
+    "ID": 5,
+    "Type": 0,
+    "defaultBuyPrice": 1.33,
+    "defaultSellPrice": 1.11,
+    "Name": "Bauxite"
+  },
+  {
+    "ID": 6,
+    "Type": 4,
+    "defaultBuyPrice": 2.7,
+    "defaultSellPrice": 2.3,
+    "Name": "Corundum"
+  },
+  {
+    "ID": 7,
+    "Type": 4,
+    "defaultBuyPrice": 7.36,
+    "defaultSellPrice": 5.85,
+    "Name": "Diamond"
+  },
+  {
+    "ID": 8,
+    "Type": 4,
+    "defaultBuyPrice": 31.01,
+    "defaultSellPrice": 25.0,
+    "Name": "Laranite"
+  },
+  {
+    "ID": 9,
+    "Type": 7,
+    "defaultBuyPrice": 0.01,
+    "defaultSellPrice": 0.01,
+    "Name": "Waste"
+  },
+  {
+    "ID": 10,
+    "Type": 2,
+    "defaultBuyPrice": 5.67,
+    "defaultSellPrice": 4.05,
+    "Name": "Distilled Spirits"
+  },
+  {
+    "ID": 11,
+    "Type": 5,
+    "defaultBuyPrice": 3.81,
+    "defaultSellPrice": 2.8,
+    "Name": "Stims"
+  },
+  {
+    "ID": 12,
+    "Type": 3,
+    "defaultBuyPrice": 9.0,
+    "defaultSellPrice": 7.0,
+    "Name": "Astatine"
+  },
+  {
+    "ID": 13,
+    "Type": 3,
+    "defaultBuyPrice": 1.7,
+    "defaultSellPrice": 1.31,
+    "Name": "Chlorine"
+  },
+  {
+    "ID": 14,
+    "Type": 3,
+    "defaultBuyPrice": 2.96,
+    "defaultSellPrice": 2.35,
+    "Name": "Flourine"
+  },
+  {
+    "ID": 15,
+    "Type": 3,
+    "defaultBuyPrice": 0.45,
+    "defaultSellPrice": 0.35,
+    "Name": "Iodine"
+  },
+  {
+    "ID": 16,
+    "Type": 6,
+    "defaultBuyPrice": 1.85,
+    "defaultSellPrice": 1.6,
+    "Name": "Scrap"
+  },
+  {
+    "ID": 17,
+    "Type": 0,
+    "defaultBuyPrice": 4.1,
+    "defaultSellPrice": 3.55,
+    "Name": "Tungsten"
+  },
+  {
+    "ID": 18,
+    "Type": 0,
+    "defaultBuyPrice": 90.0,
+    "defaultSellPrice": 70.0,
+    "Name": "Neon"
+  },
+  {
+    "ID": 19,
+    "Type": 0,
+    "defaultBuyPrice": 8.9,
+    "defaultSellPrice": 7.1,
+    "Name": "Raw Titanium"
+  },
+  {
+    "ID": 20,
+    "Type": 0,
+    "defaultBuyPrice": 1.69,
+    "defaultSellPrice": 1.32,
+    "Name": "Revenant Tree Pollen"
+  },
+  {
+    "ID": 21,
+    "Type": 0,
+    "defaultBuyPrice": 57.5,
+    "defaultSellPrice": 42.5,
+    "Name": "Altruciatoxin"
+  },
+  null
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "radius": 0.0,
+    "orbiting": null,
+    "satellites": [
+      {
+        "radius": 0.0,
+        "satellites": [
+          {
+            "radius": 0.0,
+            "satellites": [
+            ],
+            "distance": 0.0,
+            "degree": 0.0,
+            "type": 2,
+            "name": "Cellin",
+            "position": {
+              "x": -18042687.445091985,
+              "y": -6562300.2755175559,
+              "z": 0.0
+            }
+          },
+          {
+            "radius": 0.0,
+            "satellites": [
+            ],
+            "distance": 0.0,
+            "degree": 0.0,
+            "type": 2,
+            "name": "Daymar",
+            "position": {
+              "x": -17934266.711469021,
+              "y": -6527539.2563659316,
+              "z": 0.0
+            }
+          },
+          {
+            "radius": 0.0,
+            "satellites": [
+            ],
+            "distance": 0.0,
+            "degree": 0.0,
+            "type": 2,
+            "name": "Yela",
+            "position": {
+              "x": -18033374.460512351,
+              "y": -6480516.868820319,
+              "z": 0.0
+            }
+          }
+        ],
+        "distance": 0.0,
+        "degree": 0.0,
+        "type": 1,
+        "name": "Crusader",
+        "position": {
+          "x": -17993730.460512351,
+          "y": -6549182.2910355795,
+          "z": 0.0
+        }
+      }
+    ],
+    "distance": 0.0,
+    "degree": 0.0,
+    "type": 0,
+    "name": "Stanton",
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  }
+]
