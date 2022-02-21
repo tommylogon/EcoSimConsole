@@ -1,7 +1,7 @@
 # EcoSimConsole
  
 The basic concept is the following: 
-Base entities: Workers, independents, Ships, Statiosn, outposts, stellar objects (planets and moons)
+Base entities: Workers, independents, Ships, Stations, outposts, stellar objects (planets and moons)
 
 Workers will work at and be transported between locations based on preference. is akin to a low class population
 
@@ -15,7 +15,7 @@ orgs, a collection of indipendents and/or workers directed by goal (take over ar
 Example: Weapons manufacturer wants the goods to make more weapon goods, and will be agressive in aquiring them vs another org.
 
 Visualize each entity and follow it.
-Investigate the posibilities of creating a 64bit position 3d engine. 
+Investigate the posibilities of creating a 64bit position 3d engine. (alternatively, make a scaled down version)
 
 
 Be systemic and dynamic: a chain of production, chain of progression. 
