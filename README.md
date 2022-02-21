@@ -5,7 +5,7 @@ Base entities: Workers, independents, Ships, Statiosn, outposts, stellar objects
 
 Workers will work at and be transported between locations based on preference. is akin to a low class population
 
-indipendents should be able to traverse a virtual space and perform tasks based on preference (buy low sell high, mine, pirate, guard or work in locations). considered the mid and high class population.
+indipendents are a higher level of workers, having aquired a means of personal transport. should be able to traverse a virtual space and perform tasks based on preference (buy low sell high, mine, pirate, guard or work in locations). considered the mid and high class population.
 
 Ships and outposts have basic stats: health, fuel, cargo space (goods, data or personel), combat ability, defensive ability, manuverability, crew size
 
@@ -20,6 +20,9 @@ Investigate the posibilities of creating a 64bit position 3d engine.
 
 Be systemic and dynamic: a chain of production, chain of progression. 
 Logistics
+
 1). Minables spawn around locations, someone find minables, either sell or claim data. (titanium ore)
+
 2). Collect the resources, refine and produce basic refined goods. (Titanium plates)
+
 3). Manufacture complex goods to produce new entities (Basic Outpost (Miner module/ Habitation Module/ cargo module))
