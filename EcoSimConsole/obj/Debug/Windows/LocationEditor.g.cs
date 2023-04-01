@@ -9,11 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using EcoSimConsole;
 using EcoSimConsole.Data;
 using EcoSimConsole.Helpers;
 using EcoSimConsole.Windows;
-using LiveChartsCore.SkiaSharpView.WPF;
 using System;
 using System.Diagnostics;
 using System.Windows;
